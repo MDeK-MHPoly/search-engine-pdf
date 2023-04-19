@@ -1,14 +1,12 @@
 import pandas as pd
 import streamlit as st 
 
-#Hello jongens
-
 #%%  SELECT FOLDER 
 st.markdown("""
             ### Select folder
             """)
             
-folder = st.selectbox("Choose your folder", ["04_Afgeronde projecten","COTU"])
+folder = st.selectbox("Choose your folder", ["04_Afgeronde projecten","COTU","Documentatie","Normen"])
 
 # Path naar TXT
 # Update: voeg papier formaat toe aan de dictionary + doorzoek een map waar alle txt files in staan.
